@@ -26,7 +26,7 @@ from database.sudodb import sudo_list
 
 
 @friday_on_cmd(
-    ["gmute"],
+    ["smt"],
     cmd_help={
         "help": "Globally Mute The User!",
         "example": "{ch}gmute (reply to user messages OR provide his ID)",
@@ -68,7 +68,7 @@ async def gmute_him(client, message):
 
 
 @friday_on_cmd(
-    ["ungmute"],
+    ["unsmt"],
     cmd_help={
         "help": "Globally UnMute The User!",
         "example": "{ch}ungmute (reply to user message OR provide his ID)",
@@ -105,7 +105,7 @@ async def gmute_him(client, message):
 
 
 @friday_on_cmd(
-    ["gban"],
+    ["sban"],
     cmd_help={
         "help": "Globally Ban The User!",
         "example": "{ch}gban (reply to user message OR provide his ID)",
@@ -160,7 +160,7 @@ async def gbun_him(client, message):
 
 
 @friday_on_cmd(
-    ["ungban"],
+    ["unsban"],
     cmd_help={
         "help": "Globally Unban The User!",
         "example": "{ch}ungban (reply to user messages OR provide his ID)",
@@ -234,7 +234,7 @@ async def watch(client, message):
         )
     
 @friday_on_cmd(
-    ["gbanlist"],
+    ["sbanlist"],
     cmd_help={
         "help": "Get List Of Globally Banned Users!",
         "example": "{ch}gbanlist (reply to user messages OR provide his ID)",
@@ -254,7 +254,7 @@ async def give_glist(client, message):
 
 
 @friday_on_cmd(
-    ["gbroadcast"],
+    ["sbroadcast"],
     cmd_help={
         "help": "Send Message To All Chats, You Are In!",
         "example": "{ch}gbroadcast (replying to message)",
