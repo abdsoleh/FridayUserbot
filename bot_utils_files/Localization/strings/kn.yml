@@ -204,7 +204,7 @@ YTDL_FAILED: "** Youtube Download Failed! ** \ n ** Error: {} "
 No_results: "No results were found {}, perhaps, you may be more specific.
 GETTING_RESULTS: "Searching for results compatibility for {}. Please wait . "
 ALIVE_: "
-**{}'ನ Supremebot **\n\n
+**{}'Supremebot is Alive **\n\n
 \n➔ **version:** __{}__
 \n➔ **uptime :** __{}__
 \n➔ **pairogram version :** __{}__
