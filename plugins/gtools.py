@@ -26,7 +26,7 @@ from database.sudodb import sudo_list
 
 
 @friday_on_cmd(
-    ["smt"],
+    ["smute"],
     cmd_help={
         "help": "Globally Mute The User!",
         "example": "{ch}gmute (reply to user messages OR provide his ID)",
@@ -68,7 +68,7 @@ async def gmute_him(client, message):
 
 
 @friday_on_cmd(
-    ["unsmt"],
+    ["unsmute"],
     cmd_help={
         "help": "Globally UnMute The User!",
         "example": "{ch}ungmute (reply to user message OR provide his ID)",
